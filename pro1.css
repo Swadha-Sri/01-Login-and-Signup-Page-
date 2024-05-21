@@ -1,9 +1,9 @@
 body {
-    --color-primary: #009579;
-    --color-primary-dark: #007f67;
+    --color-primary: #041daf;
+    --color-primary-dark: #0ab7d9;
     --color-secondary: #252c6a;
-    --color-error: #cc3333;
-    --color-success: #4bb544;
+    --color-error: #d44406;
+    --color-success: #26cb1b;
     --border-radius: 4px;
 
     margin: 0;
@@ -12,7 +12,7 @@ body {
     align-items: center;
     justify-content: center;
     font-size: 18px;
-    background: url(./background.jpg);
+    background: url(./design.png);
     background-size: cover;
 }
 
@@ -23,13 +23,13 @@ body {
     padding: 2rem;
     box-shadow: 0 0 40px rgba(0, 0, 0, 0.2);
     border-radius: var(--border-radius);
-    background: #ffffff;
+    background-image: url(/Untitled.png);
 }
 
 .container,
 .form__input,
 .form__button {
-    font: 500 1rem 'Quicksand', sans-serif;
+    font: 500 1rem 'Times New Roman', sans-serif;
 }
 
 .form--hidden {
